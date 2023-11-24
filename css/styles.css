@@ -5,12 +5,14 @@
     --cor-secundaria: #83119B;
     --cor-terciaria: #564899;
     --cor-light: #F6F6F6;
+    --cor-dark: #3d3d3d;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--cor-light);
-    color: #3D3D3D;
+    color: var(--cor-dark);
+    font-size: 18px;
 }
 
 strong {
@@ -19,7 +21,7 @@ strong {
 
 .primary-button {
     background-color: var(--cor-primaria);
-    box-shadow: 1px 1px 4px #3D3D3D;
+    box-shadow: 1px 1px 4px var(--cor-dark);
     color: var(--cor-light);
     width: 150px;
     height: 4vh ; 
@@ -30,8 +32,8 @@ strong {
 }
 
 .primary-button:hover{
-    background-color: var(--cor-light);
-    color: #3d3d3d;
+    background-color: #915fc4;
+    color: var(--cor-light);
 }
 
 .text-secondary{
@@ -42,8 +44,11 @@ strong {
     background-image: url("./img/Desktop_tablet_cell.png");
 }
 
-.card-title, .card-text {
-    color: #3d3d3d;
+.card {
+    border: 3px solid var(--cor-primaria);
+    border-radius: 40px;
+    background-color: var(--cor-light) ;
+    color: var(--cor-dark);
 }
 
 footer {
