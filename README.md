@@ -1,4 +1,4 @@
-## FinanSense
+## FinanSense em progresso...
 
 A FinanSense é uma empresa criada por Gabriela Brandão Martins, universitária no segundo semestre da Faculdade de Informática e Administração Paulista. Com o objetivo de auxiliar usuários iniciantes em educação financeira.
 
