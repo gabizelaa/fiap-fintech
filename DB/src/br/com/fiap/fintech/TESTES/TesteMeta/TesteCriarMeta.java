@@ -20,13 +20,7 @@ public class TesteCriarMeta {
         System.out.println("Digite o nome da meta: ");
         String nomeMeta = scanner.nextLine();
 
-        System.out.println("Digite a data de início da meta: ");
-        String dataInicio = scanner.nextLine();
-
-        System.out.println("Digite a data de término da meta: ");
-        String dataTermino = scanner.nextLine();
-
-        Meta meta = new Meta(idUser, nomeMeta, valorMeta, dataInicio, dataTermino);
+        Meta meta = new Meta(idUser, nomeMeta, valorMeta);
         dao.cadastrarMeta(meta);
 
     }
