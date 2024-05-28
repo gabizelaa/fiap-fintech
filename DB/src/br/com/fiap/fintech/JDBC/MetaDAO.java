@@ -18,21 +18,18 @@ public class MetaDAO {
         try {
             conexao = FintechDBManager.obterConexao();
 
-            String sql = "INSERT INTO T_META (ID_USER, NM_META, VL_META, DT_INICIO, " +
-                    "DT_TERMINO) " +
+            String sql = "INSERT INTO T_META (ID_USER, NM_META, VL_META" +
                     "VALUES" +
-                    " (?, ?, ?, ?, ?)";
+                    " (?, ?, ?)";
 
             stmt = conexao.prepareStatement(sql);
 
             stmt.setInt(1, meta.getIdUser());
             stmt.setString(2, meta.getNomeMeta());
             stmt.setDouble(3, meta.getValorMeta());
-            stmt.setString(4, meta.getDataInicio());
-            stmt.setString(5, meta.getDataTermino());
 
             stmt.executeUpdate();
-            System.out.println("Meta cadastrado com sucesso!");
+            System.out.println("Meta cadastrada com sucesso!");
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
@@ -60,10 +57,8 @@ public class MetaDAO {
                 int idUser = rs.getInt("ID_USER");
                 String nome = rs.getString("NM_META");
                 double valor = rs.getDouble("VL_META");
-                String dtInicio = rs.getString("DT_INICIO");
-                String dtTermino = rs.getString("DT_TERMINO");
 
-                Meta meta = new Meta(idUser, nome, valor, dtInicio, dtTermino);
+                Meta meta = new Meta(idUser, nome, valor);
                 meta.setIdMeta(idMeta);
                 lista.add(meta);
             }
@@ -86,7 +81,7 @@ public class MetaDAO {
 
         try {
             conexao = FintechDBManager.obterConexao();
-            String sql = "UPDATE T_META SET NM_META = ?, VL_META = ?, DT_INICIO = ?, DT_TERMINO = ?" +
+            String sql = "UPDATE T_META SET NM_META = ?, VL_META = ?" +
                     " WHERE" + " " +
                     "ID_USER = ? AND " +
                     " ID_META = ?";
@@ -94,8 +89,6 @@ public class MetaDAO {
 
             stmt.setString(1, meta.getNomeMeta());
             stmt.setDouble(2, meta.getValorMeta());
-            stmt.setString(3, meta.getDataInicio());
-            stmt.setString(4, meta.getDataTermino());
             stmt.setInt(5, meta.getIdUser());
             stmt.setInt(6, meta.getIdMeta());
 
@@ -122,7 +115,7 @@ public class MetaDAO {
             stmt = conexao.prepareStatement(sql);
             stmt.setInt(1, cd);
             stmt.executeUpdate();
-            System.out.println("Meta removido com sucesso!");
+            System.out.println("Meta removida com sucesso!");
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
