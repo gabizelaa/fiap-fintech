@@ -24,15 +24,9 @@ public class TesteAtualizarMeta {
         double valor = Double.parseDouble(scanner.nextLine());
         scanner.nextLine();
 
-        System.out.println("Digite a data de inicio da meta:");
-        String dataInicio = scanner.nextLine();
-
-        System.out.println("Digite a data de termino da meta:");
-        String dataTermino = scanner.nextLine();
-
         scanner.close();
 
-        Meta meta = new Meta(idUser, nome, valor, dataInicio, dataTermino);
+        Meta meta = new Meta(idUser, nome, valor);
         meta.setIdMeta(cdMeta);
 
         dao.atualizarMeta(meta);
