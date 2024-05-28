@@ -75,8 +75,6 @@ public class Main {
             System.out.println("\nLista de metas:");
             for (Meta meta : listaDeMetas) {
                 System.out.println("Nome da meta: " + meta.getNomeMeta());
-                System.out.println("Data de início: " + meta.getDataInicio());
-                System.out.println("Data de término: " + meta.getDataTermino());
                 System.out.println("Valor da meta: R$" + meta.getValorMeta() + "\n");
             }
         }
