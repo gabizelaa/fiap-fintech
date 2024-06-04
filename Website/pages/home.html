@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salt Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+
+<body>
+     <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand ms-4" href="./home.html">Salt</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav py-2">
+                <a class="nav-item nav-link" href="#">Resumo</a>
+                <a class="nav-item nav-link" href="#">Investimento</a>
+                <a class="nav-item nav-link" href="#">Transações</a>
+                <a class="nav-item nav-link" href="#">Receita</a>
+                <a class="nav-item nav-link" href="#">Despesa</a>
+                <a class="nav-item nav-link" href="#">Metas</a>
+                <a class="nav-item nav-link" href="#">Configurações</a>
+            </div>
+        </div>
+    </nav> 
+
+    <main class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-4 pb-2 mb-3 border-bottom">
+            <h1 class="h2">Olá, (Nome)!</h1>
+            <!-- colocar o nome cadastrado -->
+            <div class="mb-2 mb-md-0">
+                <p>27 de maio, 2024 </p> <!-- colocar a data atual -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card py-2 h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Carteira</h5>
+                        <p class="card-text">Saldo em conta: R$124k</p> <!-- saldo em conta -->
+                        <p class="text-success">Ganhos: R$198k</p> <!-- valor ganhos -->
+                        <p class="text-danger">Gastos: R$74k</p> <!-- valor gastos -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card py-2 h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Receita</h5>
+                        <p>10 Maio: Salário - R$1.300</p>
+                        <!-- data da transacao - valor -->
+                        <p>21 Jun: Presente Da Vó - R$50</p>
+                        <!-- data da transacao - valor -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card py-2 h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Despesa</h5>
+                        <p>15 Maio: Figma - R$150</p>
+                        <!-- data da transacao - valor -->
+                        <p>16 Jun: Adobe - R$500</p>
+                        <!-- data da transacao - valor -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="row">
+            <div class="col-md-12 col-lg-6 mb-3">
+                <h2>Transações</h2>
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">produto</h5>
+                            <!-- nome do produto -->
+                            <small>valor</small>
+                            <!-- valor -->
+                        </div>
+                        <p class="mb-3">local e data</p>
+                        <!--local e data da transacao -->
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-3">produto</h5>
+                            <!-- nome do produto -->
+                            <small>valor</small>
+                            <!-- valor -->
+                        </div>
+                        <p class="mb-3">local e data</p>
+                        <!--local e data da transacao -->
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-3">produto</h5>
+                            <!-- nome do produto -->
+                            <small>valor</small>
+                            <!-- valor -->
+                        </div>
+                        <p class="mb-3">local e data</p>
+                        <!-- local e data da transacao -->
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-3">produto</h5>
+                            <!-- nome do produto -->
+                            <small>valor</small>
+                            <!-- valor -->
+                        </div>
+                        <p class="mb-3">local e data</p>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-3">produto</h5>
+                            <!-- nome do produto -->
+                            <small>valor</small>
+                            <!-- valor -->
+                        </div>
+                        <p class="mb-3">local e data</p>
+                        <!-- local e data da transacao -->
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 mb-3">
+                <h2>Investimento</h2>
+                <div class="card-columns">
+                    <div class="card mb-3 py-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Bitcoin</h5> <!-- nome do investimento -->
+                            <p class="card-text">R$80.000</p> <!-- valor do investimento -->
+                        </div>
+                    </div>
+                    <div class="card mb-3 py-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Tesouro Direto</h5> <!-- nome do investimento -->
+                            <p class="card-text">R$350.00</p> <!-- valor do investimento -->
+                        </div>
+                    </div>
+                    <div class="card mb-3 py-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Viagem</h5> <!-- nome do investimento -->
+                            <p class="card-text">R$5.000</p> <!-- valor do investimento -->
+                        </div>
+                    </div>
+                    <div class="card mb-3 py-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Rolex</h5> <!-- nome do investimento -->
+                            <p class="card-text">R$120.000</p> <!-- valor do investimento -->
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Metas</h2>
+                <div class="card-columns">
+                    <div class="card mb-3 py-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Casa nova</h5> <!-- nome da meta -->
+                            <p class="card-text">R$250.000</p> <!-- valor da meta -->
+                        </div>
+                    </div>
+                    <div class="card mb-3 py-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Barca de sushi</h5> <!-- nome da meta -->
+                            <p class="card-text">R$350.00</p> <!-- valor da meta -->
+                        </div>
+                    </div>
+                    <div class="card mb-3 py-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Viagem</h5> <!-- nome da meta -->
+                            <p class="card-text">R$5.000</p> <!-- valor da meta -->
+                        </div>
+                    </div>
+                    <div class="card mb-3 py-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Peça de teatro</h5> <!-- nome da meta -->
+                            <p class="card-text">R$200.00</p> <!-- valor da meta -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid">
+        <div class="row py-lg-2 pt-md-1 pb-md-5 px-lg-5 mx-lg-5">
+            <div class="col-lg-6 col-md-12 mb-3 mb-lg-5 gx-5">
+                <p class="my-3">Feito com muito amor e fé!</p>
+                <p>© 2024 Salt Finance.</p>
+            </div>
+
+            <div class="col-lg-6 col-md-12 mb-3 mb-lg-5">
+                <h4 class="my-3">Atendimento</h4>
+                <p>24 horas por dia, em todos os dias da semana.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
