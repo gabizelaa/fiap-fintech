@@ -1,20 +1,18 @@
 @import url(default.css);
 
-h1 {
+.logo {
     text-align: center;
-    color: var(--cor-preta);
-    font-size: 4rem;
 }
 
-p {
+h1 {
     text-align: center;
-    font-weight: 400;
-    font-size: 1.2rem;
-    color: var(--cor-cinza);
+    color: #363636;
+    font-size: 2rem;
 }
 
 .forms {
-    margin: 1.5rem 40%;
+    margin: 3rem 40%;
+
 }
 
 .btn {
@@ -26,7 +24,7 @@ p {
     font-size: 1.5rem;
 }
 
-.botao-entrar  {
+.botao-entrar {
     background-color: var(--cor-amarela);
 }
 
@@ -35,26 +33,21 @@ p {
     color: var(--cor-branca);
 }
 
-.form-check-label{
-    font-size: 0.85rem;
-    color: var(--cor-cinza);
-}
-
 .opcoes {
     text-align: center;
+
 }
 
-.ja-tem-conta-link {
+.criar-conta-link {
     color: var(--cor-laranja);
     text-decoration: none;
 }
 
-@media (max-width: 1440px) {
-    .forms {
-        margin: 3rem 35%;
-
-    }
+.esqueceu-senha-link {
+    color: var(--cor-amarela);
+    text-decoration: none;
 }
+
 
 @media (max-width: 1024px) {
     .forms {
@@ -69,12 +62,10 @@ p {
 
     }
 }
+
 @media (max-width: 425px) {
     .forms {
         margin: 0 10%;
 
     }
 }
-
-
-

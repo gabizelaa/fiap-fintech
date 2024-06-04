@@ -12,7 +12,7 @@ p {
     color: var(--cor-cinza);
 }
 
-h1{
+h1 {
     color: var(--cor-preta);
     font-size: 2rem;
 }
@@ -27,7 +27,7 @@ h1{
     margin-right: 0.8rem;
 }
 
-.botao-entrar  {
+.botao-entrar {
     background-color: var(--cor-laranja);
 }
 
@@ -36,7 +36,7 @@ h1{
     color: #f6f6f6;
 }
 
-.botao-cad{
+.botao-cad {
     background-color: var(--cor-amarela);
 }
 
