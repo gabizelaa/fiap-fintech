@@ -39,6 +39,6 @@ public class Meta {
                         "\tID do Usuário: %d\n" +
                         "\tNome da Meta: %s\n" +
                         "\tValor da Meta: %.2f\n",
-                idUser, nomeMeta, valorMeta, dataInicio, dataTermino);
+                idUser, nomeMeta, valorMeta);
     }
 }
