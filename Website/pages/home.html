@@ -11,7 +11,7 @@
 </head>
 
 <body>
-     <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand ms-4" href="./home.html">Salt</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,10 +28,11 @@
                 <a class="nav-item nav-link" href="#">Configurações</a>
             </div>
         </div>
-    </nav> 
+    </nav>
 
     <main class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
-        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-4 pb-2 mb-3 border-bottom">
+        <div
+            class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-4 pb-2 mb-3 border-bottom">
             <h1 class="h2">Olá, (Nome)!</h1>
             <!-- colocar o nome cadastrado -->
             <div class="mb-2 mb-md-0">
@@ -43,19 +44,33 @@
                 <div class="card py-2 h-100">
                     <div class="card-body">
                         <h5 class="card-title">Carteira</h5>
-                        <p class="card-text">Saldo em conta: R$124k</p> <!-- saldo em conta -->
-                        <p class="text-success">Ganhos: R$198k</p> <!-- valor ganhos -->
-                        <p class="text-danger">Gastos: R$74k</p> <!-- valor gastos -->
+                        <div class="row">
+                            <p class="card-text fs-5">Saldo em conta:</p>
+                            <p class="card-text dinheiro fs-3 mb-3 fw-semibold">R$ 100.00</ <!-- saldo em conta -->
+                        </div>
+                        <div class="valores">
+                            <div class="row">
+                                <p class="text-success fw-semibold ganhos"><img src="/img/" alt=""> Ganhos: 
+                                    <span class="fs-5">R$100.00</span> </p>
+                            </div>
+                            <div class="row"><!-- valor ganhos -->
+                                <p class="text-danger fw-semibold gastos"> Gastos:
+                                    <span class="fs-5">R$100.00</span> </p> <!-- valor gastos -->
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4 mb-3">
                 <div class="card py-2 h-100">
                     <div class="card-body">
                         <h5 class="card-title">Receita</h5>
-                        <p>10 Maio: Salário - R$1.300</p>
+                        <p>10 Maio: Salário - 
+                            <span class="fs-5">R$1.300</span></p>
                         <!-- data da transacao - valor -->
-                        <p>21 Jun: Presente Da Vó - R$50</p>
+                        <p>21 Jun: Presente Da Vó - 
+                            <span class="fs-5">R$50</span></p>
                         <!-- data da transacao - valor -->
                     </div>
                 </div>
@@ -64,15 +79,17 @@
                 <div class="card py-2 h-100">
                     <div class="card-body">
                         <h5 class="card-title">Despesa</h5>
-                        <p>15 Maio: Figma - R$150</p>
+                        <p>15 Maio: Figma - 
+                            <span class="fs-5">R$150</span> </p>
                         <!-- data da transacao - valor -->
-                        <p>16 Jun: Adobe - R$500</p>
+                        <p>16 Jun: Adobe - 
+                            <span class="fs-5">R$500</span></p>
                         <!-- data da transacao - valor -->
                     </div>
                 </div>
             </div>
         </div>
-        
+
 
         <div class="row">
             <div class="col-md-12 col-lg-6 mb-3">
@@ -82,7 +99,7 @@
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">produto</h5>
                             <!-- nome do produto -->
-                            <small>valor</small>
+                            <small class="fs-5">valor</small>
                             <!-- valor -->
                         </div>
                         <p class="mb-3">local e data</p>
@@ -92,7 +109,7 @@
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-3">produto</h5>
                             <!-- nome do produto -->
-                            <small>valor</small>
+                            <small class="fs-5">valor</small>
                             <!-- valor -->
                         </div>
                         <p class="mb-3">local e data</p>
@@ -102,7 +119,7 @@
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-3">produto</h5>
                             <!-- nome do produto -->
-                            <small>valor</small>
+                            <small class="fs-5">valor</small>
                             <!-- valor -->
                         </div>
                         <p class="mb-3">local e data</p>
@@ -112,7 +129,7 @@
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-3">produto</h5>
                             <!-- nome do produto -->
-                            <small>valor</small>
+                            <small class="fs-5">valor</small>
                             <!-- valor -->
                         </div>
                         <p class="mb-3">local e data</p>
@@ -121,7 +138,7 @@
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-3">produto</h5>
                             <!-- nome do produto -->
-                            <small>valor</small>
+                            <small class="fs-5">valor</small>
                             <!-- valor -->
                         </div>
                         <p class="mb-3">local e data</p>
@@ -136,25 +153,25 @@
                     <div class="card mb-3 py-2">
                         <div class="card-body">
                             <h5 class="card-title">Bitcoin</h5> <!-- nome do investimento -->
-                            <p class="card-text">R$80.000</p> <!-- valor do investimento -->
+                            <p class="card-text fs-5">R$80.000</p> <!-- valor do investimento -->
                         </div>
                     </div>
                     <div class="card mb-3 py-2">
                         <div class="card-body">
                             <h5 class="card-title">Tesouro Direto</h5> <!-- nome do investimento -->
-                            <p class="card-text">R$350.00</p> <!-- valor do investimento -->
+                            <p class="card-text fs-5">R$350.00</p> <!-- valor do investimento -->
                         </div>
                     </div>
                     <div class="card mb-3 py-2">
                         <div class="card-body">
                             <h5 class="card-title">Viagem</h5> <!-- nome do investimento -->
-                            <p class="card-text">R$5.000</p> <!-- valor do investimento -->
+                            <p class="card-text fs-5">R$5.000</p> <!-- valor do investimento -->
                         </div>
                     </div>
                     <div class="card mb-3 py-2">
                         <div class="card-body">
                             <h5 class="card-title">Rolex</h5> <!-- nome do investimento -->
-                            <p class="card-text">R$120.000</p> <!-- valor do investimento -->
+                            <p class="card-text fs-5">R$120.000</p> <!-- valor do investimento -->
                         </div>
                     </div>
                 </div>
@@ -164,25 +181,25 @@
                     <div class="card mb-3 py-2">
                         <div class="card-body">
                             <h5 class="card-title">Casa nova</h5> <!-- nome da meta -->
-                            <p class="card-text">R$250.000</p> <!-- valor da meta -->
+                            <p class="card-text fs-5">R$250.000</p> <!-- valor da meta -->
                         </div>
                     </div>
                     <div class="card mb-3 py-2">
                         <div class="card-body">
                             <h5 class="card-title">Barca de sushi</h5> <!-- nome da meta -->
-                            <p class="card-text">R$350.00</p> <!-- valor da meta -->
+                            <p class="card-text fs-5">R$350.00</p> <!-- valor da meta -->
                         </div>
                     </div>
                     <div class="card mb-3 py-2">
                         <div class="card-body">
                             <h5 class="card-title">Viagem</h5> <!-- nome da meta -->
-                            <p class="card-text">R$5.000</p> <!-- valor da meta -->
+                            <p class="card-text fs-5">R$5.000</p> <!-- valor da meta -->
                         </div>
                     </div>
                     <div class="card mb-3 py-2">
                         <div class="card-body">
                             <h5 class="card-title">Peça de teatro</h5> <!-- nome da meta -->
-                            <p class="card-text">R$200.00</p> <!-- valor da meta -->
+                            <p class="card-text fs-5">R$200.00</p> <!-- valor da meta -->
                         </div>
                     </div>
                 </div>

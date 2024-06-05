@@ -2,6 +2,7 @@
 
 main {
     margin: auto;
+    padding: 4vh;
 } 
 
 .navbar{
@@ -31,6 +32,12 @@ main {
     border-radius: 20px;
 }
 
+.valores{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
 footer {
     background: var(--cor-footer);
     color: var(--cor-preta);
@@ -41,3 +48,4 @@ footer {
         column-count: 2;
     }
 }
+
