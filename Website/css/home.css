@@ -1,26 +1,18 @@
 @import url(default.css);
+@import url(navbar.css);
+
+body{
+    background-color: var(--cor-branca);
+}
 
 main {
     margin: auto;
-    padding: 4vh;
+    padding: 2vh;
 } 
 
-.navbar{
-    background: var(--cor-navbar);
-}
-
-.nav-link {
-    color: var(--cor-preta);
-}
-
-.nav-link:hover {
-    background-color: var(--cor-amarela-hover);
-    font-weight: 500;
-    border-radius: 8px;
-}
-
-.card {
+.card, .list-group {
     border-radius: 20px;
+    box-shadow: 0.5rem 0.2rem 1rem #cecaca;
 }
 
 .card-title {
@@ -28,14 +20,19 @@ main {
     font-weight: bold;
 }
 
-.list-group{
-    border-radius: 20px;
-}
-
 .valores{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+}
+
+.receita{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.list-group, .card-titulo  {
+    margin: 30px 30px 30px 0px;
 }
 
 footer {

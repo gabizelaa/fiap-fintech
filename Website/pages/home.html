@@ -19,20 +19,20 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand ms-4" href="./home.html">Salt</a>
+        <a class="navbar-brand ms-5" href="./home.html">Salt</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav py-2">
-                <a class="nav-item nav-link" href="#">Resumo</a>
-                <a class="nav-item nav-link" href="#">Investimento</a>
-                <a class="nav-item nav-link" href="#">Transações</a>
-                <a class="nav-item nav-link" href="#">Receita</a>
-                <a class="nav-item nav-link" href="#">Despesa</a>
-                <a class="nav-item nav-link" href="#">Metas</a>
-                <a class="nav-item nav-link" href="#">Configurações</a>
+            <div class="navbar-nav py-3 fs-5">
+                <a class="nav-item nav-link" href="./home.html">Resumo</a>
+                <a class="nav-item nav-link" href="./investimento.html">Investimento</a>
+                <a class="nav-item nav-link" href="./transacoes.html">Transações</a>
+                <a class="nav-item nav-link" href="./receita.html">Receita</a>
+                <a class="nav-item nav-link" href="./despesa.html">Despesa</a>
+                <a class="nav-item nav-link" href="./metas.html">Metas</a>
+                <a class="nav-item nav-link" href="./configuracoes,html">Configurações</a>
                 <a class="nav-item nav-link fw-light" href="/inicio.html">Sair</a>
             </div>
         </div>
@@ -50,20 +50,20 @@
         </div>
         <div class="row">
             <div class="col-md-4 mb-3">
-                <div class="card py-2 h-100">
+                <div class="card py-2 h-100 carteira">
                     <div class="card-body">
-                        <h5 class="card-title">Carteira</h5>
+                        <h5 class="card-title fs-4">Carteira</h5>
                         <div class="row">
-                            <p class="card-text fs-5">Saldo em conta:</p>
-                            <p class="card-text dinheiro fs-3 mb-3 fw-semibold">R$ 100.00</ <!-- saldo em conta -->
+                            <p class="card-text">Saldo em conta:</p>
+                            <p class="card-text dinheiro fs-3 mb-2 fw-semibold">R$ 100.00</ <!-- saldo em conta -->
                         </div>
                         <div class="valores">
                             <div class="row">
-                                <p class="text-success fw-semibold ganhos"><img src="/img/" alt=""> Ganhos: 
+                                <p class="text-success fw-semibold ganhos"><img src="/img/" alt="">Ganhos: 
                                     <span class="fs-5">R$100.00</span> </p>
                             </div>
                             <div class="row"><!-- valor ganhos -->
-                                <p class="text-danger fw-semibold gastos"> Gastos:
+                                <p class="text-danger fw-semibold gastos">Gastos:
                                     <span class="fs-5">R$100.00</span> </p> <!-- valor gastos -->
                             </div>
                         </div>
@@ -72,9 +72,10 @@
             </div>
 
             <div class="col-md-4 mb-3">
-                <div class="card py-2 h-100">
+                <div class="card py-2 h-100 receita">
                     <div class="card-body">
-                        <h5 class="card-title">Receita</h5>
+                        <h5 class="card-title fs-4">Receita</h5>
+                        <!-- <p class="">Sem receitas por enquanto...</p> --> 
                         <p>10 Maio: Salário - 
                             <span class="fs-5">R$1.300</span></p>
                         <!-- data da transacao - valor -->
@@ -85,9 +86,10 @@
                 </div>
             </div>
             <div class="col-md-4 mb-3">
-                <div class="card py-2 h-100">
+                <div class="card py-2 h-100 despesa">
                     <div class="card-body">
-                        <h5 class="card-title">Despesa</h5>
+                        <h5 class="card-title fs-4">Despesa</h5>
+                        <!-- <p class="">Sem despesas por enquanto...</p> --> 
                         <p>15 Maio: Figma - 
                             <span class="fs-5">R$150</span> </p>
                         <!-- data da transacao - valor -->
@@ -102,9 +104,9 @@
 
         <div class="row">
             <div class="col-md-12 col-lg-6 mb-3">
-                <h2>Transações</h2>
-                <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action">
+                <h2 class="card-titulo">Transações</h2>
+                <div class="list-group transacoes">
+                    <a class="list-group-item list-group-item-action">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">produto</h5>
                             <!-- nome do produto -->
@@ -114,7 +116,7 @@
                         <p class="mb-3">local e data</p>
                         <!--local e data da transacao -->
                     </a>
-                    <a href="#" class="list-group-item list-group-item-action">
+                    <a class="list-group-item list-group-item-action">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-3">produto</h5>
                             <!-- nome do produto -->
@@ -124,7 +126,7 @@
                         <p class="mb-3">local e data</p>
                         <!--local e data da transacao -->
                     </a>
-                    <a href="#" class="list-group-item list-group-item-action">
+                    <a class="list-group-item list-group-item-action">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-3">produto</h5>
                             <!-- nome do produto -->
@@ -134,7 +136,7 @@
                         <p class="mb-3">local e data</p>
                         <!-- local e data da transacao -->
                     </a>
-                    <a href="#" class="list-group-item list-group-item-action">
+                    <a class="list-group-item list-group-item-action">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-3">produto</h5>
                             <!-- nome do produto -->
@@ -143,7 +145,17 @@
                         </div>
                         <p class="mb-3">local e data</p>
                     </a>
-                    <a href="#" class="list-group-item list-group-item-action">
+                    <a class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-3">produto</h5>
+                            <!-- nome do produto -->
+                            <small class="fs-5">valor</small>
+                            <!-- valor -->
+                        </div>
+                        <p class="mb-3">local e data</p>
+                        <!-- local e data da transacao -->
+                    </a>
+                    <a class="list-group-item list-group-item-action">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-3">produto</h5>
                             <!-- nome do produto -->
@@ -157,7 +169,7 @@
             </div>
 
             <div class="col-lg-6 col-md-12 mb-3">
-                <h2>Investimento</h2>
+                <h2 class="card-titulo">Investimento</h2>
                 <div class="card-columns">
                     <div class="card mb-3 py-2">
                         <div class="card-body">
@@ -185,7 +197,7 @@
                     </div>
                 </div>
 
-                <h2>Metas</h2>
+                <h2 class="card-titulo">Metas</h2>
                 <div class="card-columns">
                     <div class="card mb-3 py-2">
                         <div class="card-body">
