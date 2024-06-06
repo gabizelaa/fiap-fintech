@@ -1,0 +1,8 @@
+@import url(default.css);
+@import url(navbar.css);
+
+main {
+    margin: auto;
+    padding: 4vh;
+    height: 90vh;
+}

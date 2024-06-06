@@ -42,7 +42,7 @@
         <div
             class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-4 pb-2 mb-3 border-bottom">
             <h1 class="h2">Olá, 
-                <span>(Nome)!</span></h1>
+                <span id="inputNome">(Nome)!</span></h1>
             <!-- colocar o nome cadastrado -->
             <div class="mb-2 mb-md-0">
                 <p>27 de maio, 2024 </p> <!-- colocar a data atual -->
@@ -55,16 +55,16 @@
                         <h5 class="card-title fs-4">Carteira</h5>
                         <div class="row">
                             <p class="card-text">Saldo em conta:</p>
-                            <p class="card-text dinheiro fs-3 mb-2 fw-semibold">R$ 100.00</ <!-- saldo em conta -->
+                            <p class="card-text dinheiro fs-3 mb-2 fw-semibold" id="saldoEmConta">R$ 0.00</ <!-- saldo em conta -->
                         </div>
                         <div class="valores">
                             <div class="row">
                                 <p class="text-success fw-semibold ganhos"><img src="/img/" alt="">Ganhos: 
-                                    <span class="fs-5">R$100.00</span> </p>
+                                    <span class="fs-5" id="ganhosHome">R$0.00</span> </p>
                             </div>
                             <div class="row"><!-- valor ganhos -->
                                 <p class="text-danger fw-semibold gastos">Gastos:
-                                    <span class="fs-5">R$100.00</span> </p> <!-- valor gastos -->
+                                    <span class="fs-5" id="gastosHome">R$0.00</span> </p> <!-- valor gastos -->
                             </div>
                         </div>
                     </div>
@@ -76,12 +76,8 @@
                     <div class="card-body">
                         <h5 class="card-title fs-4">Receita</h5>
                         <!-- <p class="">Sem receitas por enquanto...</p> --> 
-                        <p>10 Maio: Salário - 
-                            <span class="fs-5">R$1.300</span></p>
-                        <!-- data da transacao - valor -->
-                        <p>21 Jun: Presente Da Vó - 
-                            <span class="fs-5">R$50</span></p>
-                        <!-- data da transacao - valor -->
+                        <p><span id="dataReceitaHome">Data</span>: <span id="origemReceitaHome">Origem</span> - <span id="valorReceitaHome" class="fs-5">R$0.00</span></p>
+                        <p><span id="dataReceitaHome">Data</span>: <span id="origemReceitaHome">Origem</span> - <span id="valorReceitaHome" class="fs-5">R$0.00</span></p>
                     </div>
                 </div>
             </div>
@@ -90,12 +86,8 @@
                     <div class="card-body">
                         <h5 class="card-title fs-4">Despesa</h5>
                         <!-- <p class="">Sem despesas por enquanto...</p> --> 
-                        <p>15 Maio: Figma - 
-                            <span class="fs-5">R$150</span> </p>
-                        <!-- data da transacao - valor -->
-                        <p>16 Jun: Adobe - 
-                            <span class="fs-5">R$500</span></p>
-                        <!-- data da transacao - valor -->
+                        <p><span id="dataDespesaHome">Data</span>: <span id="origemDespesaHome">Origem</span> - <span id="valorDespesaHome" class="fs-5">R$0.00</span></p>
+                        <p><span id="dataDespesaHome">Data</span>: <span id="origemDespesaHome">Origem</span> - <span id="valorDespesaHome" class="fs-5">R$0.00</span></p>
                     </div>
                 </div>
             </div>
@@ -169,30 +161,34 @@
             </div>
 
             <div class="col-lg-6 col-md-12 mb-3">
-                <h2 class="card-titulo">Investimento</h2>
+                <h2 class="card-titulo">Investimentos</h2>
                 <div class="card-columns">
                     <div class="card mb-3 py-2">
                         <div class="card-body">
-                            <h5 class="card-title">Bitcoin</h5> <!-- nome do investimento -->
-                            <p class="card-text fs-5">R$80.000</p> <!-- valor do investimento -->
+                            <!-- <p class="">Sem investimentos por enquanto...</p> --> 
+                            <h5 id="nomeInvestimentoHome" class="card-title">Nome</h5> <!-- nome do investimento -->
+                            <p id="valorInvestimentoHome" class="card-text fs-5">R$0.00</p> <!-- valor do investimento -->
                         </div>
                     </div>
                     <div class="card mb-3 py-2">
                         <div class="card-body">
-                            <h5 class="card-title">Tesouro Direto</h5> <!-- nome do investimento -->
-                            <p class="card-text fs-5">R$350.00</p> <!-- valor do investimento -->
+                            <!-- <p class="">Sem investimentos por enquanto...</p> --> 
+                            <h5 id="nomeInvestimentoHome" class="card-title">Nome</h5> <!-- nome do investimento -->
+                            <p id="valorInvestimentoHome" class="card-text fs-5">R$0.00</p> <!-- valor do investimento -->
                         </div>
                     </div>
                     <div class="card mb-3 py-2">
                         <div class="card-body">
-                            <h5 class="card-title">Viagem</h5> <!-- nome do investimento -->
-                            <p class="card-text fs-5">R$5.000</p> <!-- valor do investimento -->
+                            <!-- <p class="">Sem investimentos por enquanto...</p> --> 
+                            <h5 id="nomeInvestimentoHome" class="card-title">Nome</h5> <!-- nome do investimento -->
+                            <p id="valorInvestimentoHome" class="card-text fs-5">R$0.00</p> <!-- valor do investimento -->
                         </div>
                     </div>
                     <div class="card mb-3 py-2">
                         <div class="card-body">
-                            <h5 class="card-title">Rolex</h5> <!-- nome do investimento -->
-                            <p class="card-text fs-5">R$120.000</p> <!-- valor do investimento -->
+                            <!-- <p class="">Sem investimentos por enquanto...</p> --> 
+                            <h5 id="nomeInvestimentoHome" class="card-title">Nome</h5> <!-- nome do investimento -->
+                            <p id="valorInvestimentoHome" class="card-text fs-5">R$0.00</p> <!-- valor do investimento -->
                         </div>
                     </div>
                 </div>
@@ -201,26 +197,26 @@
                 <div class="card-columns">
                     <div class="card mb-3 py-2">
                         <div class="card-body">
-                            <h5 class="card-title">Casa nova</h5> <!-- nome da meta -->
-                            <p class="card-text fs-5">R$250.000</p> <!-- valor da meta -->
+                            <h5 id="nomeMetaHome" class="card-title">Nome</h5> <!-- nome da meta -->
+                            <p id="valorMetaHome" class="card-text fs-5">R$0.00</p> <!-- valor da meta -->
                         </div>
                     </div>
                     <div class="card mb-3 py-2">
                         <div class="card-body">
-                            <h5 class="card-title">Barca de sushi</h5> <!-- nome da meta -->
-                            <p class="card-text fs-5">R$350.00</p> <!-- valor da meta -->
+                            <h5 id="nomeMetaHome" class="card-title">Nome</h5> <!-- nome da meta -->
+                            <p id="valorMetaHome" class="card-text fs-5">R$0.00</p> <!-- valor da meta -->
                         </div>
                     </div>
                     <div class="card mb-3 py-2">
                         <div class="card-body">
-                            <h5 class="card-title">Viagem</h5> <!-- nome da meta -->
-                            <p class="card-text fs-5">R$5.000</p> <!-- valor da meta -->
+                            <h5 id="nomeMetaHome" class="card-title">Nome</h5> <!-- nome da meta -->
+                            <p id="valorMetaHome" class="card-text fs-5">R$0.00</p> <!-- valor da meta -->
                         </div>
                     </div>
                     <div class="card mb-3 py-2">
                         <div class="card-body">
-                            <h5 class="card-title">Peça de teatro</h5> <!-- nome da meta -->
-                            <p class="card-text fs-5">R$200.00</p> <!-- valor da meta -->
+                            <h5 id="nomeMetaHome" class="card-title">Nome</h5> <!-- nome da meta -->
+                            <p id="valorMetaHome" class="card-text fs-5">R$0.00</p> <!-- valor da meta -->
                         </div>
                     </div>
                 </div>

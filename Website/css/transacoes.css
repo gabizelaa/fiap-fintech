@@ -8,7 +8,9 @@ body{
 main {
     margin: auto;
     padding: 4vh;
+    height: 90vh;
 }
+
 
 .btn-outline-success{
     color: var(--cor-laranja);
