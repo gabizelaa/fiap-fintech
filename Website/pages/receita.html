@@ -47,14 +47,14 @@
                         <button class="btn btn-outline-success" type="submit">Enviar</button>
                     </form>
                 </div>
-                <!-- <p class="">Sem transações por enquanto...</p> -->
+                <!-- <p class="">Sem receitas por enquanto...</p> -->
                 <div class="list-group">
                     <a class="list-group-item list-group-item-action">
                         <div class="d-flex justify-content-between">
                             <h5 id="itemReceita"><span>Item</span></h5> <!-- nome da receita -->
                         </div>
                         <div class="d-flex justify-content-between">
-                            <p><span>Local</span> - <span>Data</span></p> <!-- local e data da receita -->
+                            <p><span id="origemReceita">Local</span> - <span id="dataReceita">Data</span></p> <!-- local e data da receita -->
                             <span id="valorReceita">R$0.00</span> <!-- valor da receita -->
                             <span type="button" data-toggle="modal" data-target="#editarReceitaModal">Editar</span>
                         </div>
@@ -148,11 +148,11 @@
                 <div class="modal-body">
                     <div class="mb-3">
                         <label for="labelItemReceita" class="form-label">Item</label>
-                        <input type="email" class="form-control" id="inputItemReceita" placeholder="Exemplo: Salário">
+                        <input type="name" class="form-control" id="inputItemReceita" placeholder="Exemplo: Salário">
                     </div>
                     <div class="mb-3">
                         <label for="labelOrigemReceita" class="form-label">Origem</label>
-                        <input type="email" class="form-control" id="inputOrigemReceita" placeholder="Exemplo: Emprego">
+                        <input type="text" class="form-control" id="inputOrigemReceita" placeholder="Exemplo: Emprego">
                     </div>
                     <div class="mb-3">
                         <label for="labelDataReceita" class="form-label">Data</label>
@@ -184,11 +184,11 @@
                 <div class="modal-body">
                     <div class="mb-3">
                         <label for="labelItemReceita" class="form-label">Item</label>
-                        <input type="email" class="form-control" id="editarInputItemReceita" placeholder="Editar item">
+                        <input type="name" class="form-control" id="editarInputItemReceita" placeholder="Editar item">
                     </div>
                     <div class="mb-3">
                         <label for="labelOrigemReceita" class="form-label">Origem</label>
-                        <input type="email" class="form-control" id="editarInputOrigemReceita"
+                        <input type="text" class="form-control" id="editarInputOrigemReceita"
                             placeholder="Editar origem">
                     </div>
                     <div class="mb-3">
