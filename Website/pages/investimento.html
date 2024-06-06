@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -13,7 +13,7 @@
     <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/receita.css">
 
-    <title>Salt - Receita</title>
+    <title>Salt - Investimento</title>
 </head>
 
 <body>
@@ -40,81 +40,93 @@
         <div class="row">
             <div class="col-xl-5 col-lg-8 col-md-12 mb-3 m-auto">
                 <div class="d-flex mb-4">
-                    <h2 class="card-titulo col-lg-7 col-md-8 col-sm-9">Receita Recente</h2>
+                    <h2 class="card-titulo col-lg-7 col-md-8 col-sm-9">Investimento</h2>
                     <form class="col-lg-5 d-flex" role="search">
                         <input class="form-control me-2 pesquisar" type="search" placeholder="Procurar"
                             aria-label="Procurar">
                         <button class="btn btn-outline-success" type="submit">Enviar</button>
                     </form>
                 </div>
-                <!-- <p class="fs-4">Sem receitas por enquanto...</p> -->
+                <!-- <p class="fs-4">Sem investimentos por enquanto...</p> -->
                 <div class="list-group">
                     <a class="list-group-item list-group-item-action">
                         <div class="d-flex justify-content-between">
-                            <h5 id="itemReceita"><span>Item</span></h5> <!-- nome da receita -->
+                            <h5 id="itemInvestimento"><span>Nome</span></h5> <!-- nome da Investimento -->
                         </div>
                         <div class="d-flex justify-content-between">
-                            <p><span id="origemReceita">Local</span> - <span id="dataReceita">Data</span></p> <!-- local e data da receita -->
-                            <span id="valorReceita">R$0.00</span> <!-- valor da receita -->
-                            <span type="button" data-toggle="modal" data-target="#editarReceitaModal">Editar</span>
-                        </div>
-                    </a>
-                    <a class="list-group-item list-group-item-action">
-                        <div class="d-flex justify-content-between">
-                            <h5 id="itemReceita"><span>Item</span></h5> <!-- nome da receita -->
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <p><span>Local</span> - <span>Data</span></p> <!-- local e data da receita -->
-                            <span id="valorReceita">R$0.00</span> <!-- valor da receita -->
-                            <span type="button" data-toggle="modal" data-target="#editarReceitaModal">Editar</span>
+                            <p><span id="dataInvestimento">Data</span> - <span
+                                    id="rentabilidadeInvestimento">Rentabilidade</span></p>
+                            <!-- local e data da Investimento -->
+                            <span id="valorInvestimento">R$0.00</span> <!-- valor da Investimento -->
+                            <span type="button" data-toggle="modal" data-target="#editarInvestimentoModal">Editar</span>
                         </div>
                     </a>
                     <a class="list-group-item list-group-item-action">
                         <div class="d-flex justify-content-between">
-                            <h5 id="itemReceita"><span>Item</span></h5> <!-- nome da receita -->
+                            <h5 id="itemInvestimento"><span>Nome</span></h5> <!-- nome da Investimento -->
                         </div>
                         <div class="d-flex justify-content-between">
-                            <p><span>Local</span> - <span>Data</span></p> <!-- local e data da receita -->
-                            <span id="valorReceita">R$0.00</span> <!-- valor da receita -->
-                            <span type="button" data-toggle="modal" data-target="#editarReceitaModal">Editar</span>
-                        </div>
-                    </a>
-                    <a class="list-group-item list-group-item-action">
-                        <div class="d-flex justify-content-between">
-                            <h5 id="itemReceita"><span>Item</span></h5> <!-- nome da receita -->
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <p><span>Local</span> - <span>Data</span></p> <!-- local e data da receita -->
-                            <span id="valorReceita">R$0.00</span> <!-- valor da receita -->
-                            <span type="button" data-toggle="modal" data-target="#editarReceitaModal">Editar</span>
+                            <p><span id="dataInvestimento">Data</span> - <span
+                                    id="rentabilidadeInvestimento">Rentabilidade</span></p>
+                            <!-- local e data da Investimento -->
+                            <span id="valorInvestimento">R$0.00</span> <!-- valor da Investimento -->
+                            <span type="button" data-toggle="modal" data-target="#editarInvestimentoModal">Editar</span>
                         </div>
                     </a>
                     <a class="list-group-item list-group-item-action">
                         <div class="d-flex justify-content-between">
-                            <h5 id="itemReceita"><span>Item</span></h5> <!-- nome da receita -->
+                            <h5 id="itemInvestimento"><span>Nome</span></h5> <!-- nome da Investimento -->
                         </div>
                         <div class="d-flex justify-content-between">
-                            <p><span>Local</span> - <span>Data</span></p> <!-- local e data da receita -->
-                            <span id="valorReceita">R$0.00</span> <!-- valor da receita -->
-                            <span type="button" data-toggle="modal" data-target="#editarReceitaModal">Editar</span>
+                            <p><span id="dataInvestimento">Data</span> - <span
+                                    id="rentabilidadeInvestimento">Rentabilidade</span></p>
+                            <!-- local e data da Investimento -->
+                            <span id="valorInvestimento">R$0.00</span> <!-- valor da Investimento -->
+                            <span type="button" data-toggle="modal" data-target="#editarInvestimentoModal">Editar</span>
                         </div>
                     </a>
                     <a class="list-group-item list-group-item-action">
                         <div class="d-flex justify-content-between">
-                            <h5 id="itemReceita"><span>Item</span></h5> <!-- nome da receita -->
+                            <h5 id="itemInvestimento"><span>Nome</span></h5> <!-- nome da Investimento -->
                         </div>
                         <div class="d-flex justify-content-between">
-                            <p><span>Local</span> - <span>Data</span></p> <!-- local e data da receita -->
-                            <span id="valorReceita">R$0.00</span> <!-- valor da receita -->
-                            <span type="button" data-toggle="modal" data-target="#editarReceitaModal">Editar</span>
+                            <p><span id="dataInvestimento">Data</span> - <span
+                                    id="rentabilidadeInvestimento">Rentabilidade</span></p>
+                            <!-- local e data da Investimento -->
+                            <span id="valorInvestimento">R$0.00</span> <!-- valor da Investimento -->
+                            <span type="button" data-toggle="modal" data-target="#editarInvestimentoModal">Editar</span>
+                        </div>
+                    </a>
+                    <a class="list-group-item list-group-item-action">
+                        <div class="d-flex justify-content-between">
+                            <h5 id="itemInvestimento"><span>Nome</span></h5> <!-- nome da Investimento -->
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p><span id="dataInvestimento">Data</span> - <span
+                                    id="rentabilidadeInvestimento">Rentabilidade</span></p>
+                            <!-- local e data da Investimento -->
+                            <span id="valorInvestimento">R$0.00</span> <!-- valor da Investimento -->
+                            <span type="button" data-toggle="modal" data-target="#editarInvestimentoModal">Editar</span>
+                        </div>
+                    </a>
+                    <a class="list-group-item list-group-item-action">
+                        <div class="d-flex justify-content-between">
+                            <h5 id="itemInvestimento"><span>Nome</span></h5> <!-- nome da Investimento -->
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p><span id="dataInvestimento">Data</span> - <span
+                                    id="rentabilidadeInvestimento">Rentabilidade</span></p>
+                            <!-- local e data da Investimento -->
+                            <span id="valorInvestimento">R$0.00</span> <!-- valor da Investimento -->
+                            <span type="button" data-toggle="modal" data-target="#editarInvestimentoModal">Editar</span>
                         </div>
                     </a>
                 </div>
 
                 <div class="d-flex justify-content-center">
                     <button type="button" class="btn btn-primario mt-5 fs-5" data-toggle="modal"
-                        data-target="#adicionarReceitaModal">
-                        Adicionar Receita
+                        data-target="#adicionarInvestimentoModal">
+                        Adicionar Investimento
                     </button>
                 </div>
             </div>
@@ -136,31 +148,32 @@
     </footer>
 
     <!-- Modal 1 -->
-    <div class="modal" id="adicionarReceitaModal" tabindex="-1" role="dialog">
+    <div class="modal" id="adicionarInvestimentoModal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Adicionar nova receita</h5>
+                    <h5 class="modal-title">Adicionar nova Investimento</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <div class="mb-3">
-                        <label for="labelItemReceita" class="form-label">Item</label>
-                        <input type="name" class="form-control" id="inputItemReceita" placeholder="Exemplo: Salário">
+                        <label for="labelNomeInvestimento" class="form-label">Nome</label>
+                        <input type="name" class="form-control" id="inputNomeInvestimento"
+                            placeholder="Exemplo: Bitcoin">
                     </div>
                     <div class="mb-3">
-                        <label for="labelOrigemReceita" class="form-label">Origem</label>
-                        <input type="text" class="form-control" id="inputOrigemReceita" placeholder="Exemplo: Emprego">
+                        <label for="labelRentabilidadeInvestimento" class="form-label">Rentabilidade</label>
+                        <input type="number" class="form-control" id="inputRentabilidadeInvestimento" placeholder="0%">
                     </div>
                     <div class="mb-3">
-                        <label for="labelDataReceita" class="form-label">Data</label>
-                        <input type="date" class="form-control" id="inputDataReceita">
+                        <label for="labelDataInvestimento" class="form-label">Data</label>
+                        <input type="date" class="form-control" id="inputDataInvestimento">
                     </div>
                     <div class="mb-3">
-                        <label for="inputValorReceita" class="form-label">Valor</label>
-                        <input type="number" class="form-control" id="inputValorReceita" placeholder="R$ 0.00">
+                        <label for="inputValorInvestimento" class="form-label">Valor</label>
+                        <input type="number" class="form-control" id="inputValorInvestimento" placeholder="R$ 0.00">
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -172,37 +185,39 @@
     </div>
 
     <!-- Modal 2 -->
-    <div class="modal" id="editarReceitaModal" tabindex="-1" role="dialog">
+    <div class="modal" id="editarInvestimentoModal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Editar Receita</h5>
+                    <h5 class="modal-title">Editar Investimento</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <div class="mb-3">
-                        <label for="labelItemReceita" class="form-label">Item</label>
-                        <input type="name" class="form-control" id="editarInputItemReceita" placeholder="Editar item">
+                        <label for="labelNomeInvestimento" class="form-label">Nome</label>
+                        <input type="name" class="form-control" id="editarInputNomeInvestimento"
+                            placeholder="Editar nome">
                     </div>
                     <div class="mb-3">
-                        <label for="labelOrigemReceita" class="form-label">Origem</label>
-                        <input type="text" class="form-control" id="editarInputOrigemReceita"
+                        <label for="labelRentabilidadeInvestimento" class="form-label">Rentabilidade</label>
+                        <input type="number" class="form-control" id="editarInputRentabilidadeInvestimento"
                             placeholder="Editar origem">
                     </div>
                     <div class="mb-3">
-                        <label for="labelDataReceita" class="form-label">Data</label>
-                        <input type="date" class="form-control" id="editarInputDataReceita">
+                        <label for="labelDataInvestimento" class="form-label">Data</label>
+                        <input type="date" class="form-control" id="editarInputDataInvestimento">
                     </div>
                     <div class="mb-3">
-                        <label for="inputValorReceita" class="form-label">Valor</label>
-                        <input type="number" class="form-control" id="editarInputValorReceita" placeholder="R$ 0.00">
+                        <label for="inputValorInvestimento" class="form-label">Valor</label>
+                        <input type="number" class="form-control" id="editarInputValorInvestimento"
+                            placeholder="R$ 0.00">
                     </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn bg-danger btn-primary">Excluir</button>
-                    <button id="excluirReceita" type="button" class="btn btn-primary">Salvar
+                    <button id="excluirInvestimento" type="button" class="btn btn-primary">Salvar
                         mudanças</button>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                 </div>
