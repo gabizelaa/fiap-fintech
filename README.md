@@ -1,6 +1,6 @@
 ## Salt
 
-A FinanSense é uma fintech criada por mim e meus colegas de faculdade, estou no segundo semestre da Faculdade de Informática e Administração Paulista. Venho com o objetivo de auxiliar usuários iniciantes em educação financeira.
+A Salt é uma fintech criada por mim e meus colegas de faculdade, estou no segundo semestre da Faculdade de Informática e Administração Paulista. Venho com o objetivo de auxiliar usuários iniciantes em educação financeira.
 
 Para aqueles que precisam ter uma visão simples e objetiva da sua organização financeira, identificando situações de descontrole ou até mesmo simulando investimentos. Buscando equilibrar as suas finanças de forma consciente, transformando a incerteza financeira em confiança.
 
