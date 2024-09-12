@@ -1,10 +1,21 @@
-## Salt
+# FIAP Fintech - Salt
 
-A Salt é uma fintech criada por mim e meus colegas de faculdade, estou no segundo semestre da Faculdade de Informática e Administração Paulista. Venho com o objetivo de auxiliar usuários iniciantes em educação financeira.
+Bem-vindo ao repositório FIAP Fintech! Este projeto é parte de uma iniciativa educacional da FIAP (Faculdade de Informática e Administração Paulista) e se foca no desenvolvimento de soluções inovadoras para o setor financeiro.
 
-Para aqueles que precisam ter uma visão simples e objetiva da sua organização financeira, identificando situações de descontrole ou até mesmo simulando investimentos. Buscando equilibrar as suas finanças de forma consciente, transformando a incerteza financeira em confiança.
+## Descrição
 
-### 💻 Tecnologias utilizadas:
-1. Front-end (landing page): HTML, CSS e Bootstrap5;
-2. Back-end: Java (v17.0.10);
-3. Banco de dados: Oracle SQL.
+O FIAP Fintech é uma plataforma que visa melhorar a gestão financeira pessoal e empresarial através da integração de tecnologias modernas. Este repositório contém o código-fonte e os recursos necessários para implementar e testar as funcionalidades da plataforma.
+
+## Funcionalidades
+
+- **Gerenciamento de Contas**: Controle e visualize suas contas bancárias e cartões de crédito.
+- **Orçamento e Planejamento**: Crie e gerencie orçamentos para alcançar suas metas financeiras.
+- **Relatórios Financeiros**: Gere relatórios detalhados sobre suas finanças e acompanhe seu progresso.
+- **Integração com APIs**: Conecte-se com diferentes serviços financeiros e obtenha dados em tempo real.
+
+## Tecnologias Utilizadas 💻
+
+- **Linguagem**: Java
+- **Banco de Dados**: OracleSQL
+- **Frameworks e Ferramentas**: 
+  - JDBC (Java Database Connectivity)
