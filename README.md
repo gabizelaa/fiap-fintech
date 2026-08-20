@@ -19,3 +19,5 @@ O FIAP Fintech é uma plataforma que visa melhorar a gestão financeira pessoal 
 - **Banco de Dados**: OracleSQL
 - **Frameworks e Ferramentas**: 
   - JDBC (Java Database Connectivity)
+
+.
